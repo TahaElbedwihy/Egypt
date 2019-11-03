@@ -113,11 +113,16 @@ body{
 .main_menu li {
   display: inline;
 }
+
 .main_menu li a {
   color:black;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 30px;
+}
+.main_menu li a:hover{
+  color: blue;
+  background: #cccccc;
 }
 
 #main_picture img {
