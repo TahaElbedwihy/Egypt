@@ -135,6 +135,7 @@ body{
 }
 
 #content{
+  text-indent: 50px;
   text-align: left;
   padding-left: 140px;
   font-family: unset;
@@ -159,6 +160,15 @@ body{
   float:left;
 }
 
+.wrap h4 {
+  padding: 20px;
+  float: right;
+}
+
+.wrap h4:hover {
+  color: blue;
+  background: #cccccc;
+}
 
 #footer{
   float: right;
